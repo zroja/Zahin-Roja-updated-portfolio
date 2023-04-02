@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src ="https://fontawesome.com/icons/bars?f=classic&s=solid" crossorigin="anonymous"></script>
     <title>Zahin Roja</title>
     <meta charset="UTF-8" />
   </head>
@@ -12,19 +13,21 @@
     <section class = "hero"> 
         <nav>
             <img class="logo" src = "src/images/logo.png" alt="Zahin Roja Emoji" />
-            <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact Me</li>
+            <ul id = "nav-list">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class = "fas fa-bars"></i>
+            </button>
         </nav>
-        <div>
 
         <div class="hero-area">
             <div class = "hero-text">
                 <h1>Zahin Roja</h1>
                 <p>Software Engineer</p>
-                <div class = "button">About Me</div>
+                <div class = "button"><a href = "#about-me">About Me</a></div>
             </div>
             <div class = "socials">
                 <div><a href = "https://www.linkedin.com/in/zroja/" class = "social">
@@ -40,9 +43,58 @@
             </div>
         </div>
     </section>
-    <section> </section>
-    <section> </section>
-    <footer> </footer>
+
+    <section class = "sub-section" id="about-me"> 
+        <div class = "information">
+            <h2>About Me</h2>
+            <p>Hi, My name is Zahin Roja. I am a Software Engineer and Data Science Enthusiast.</p>
+        </div>
+        <div class = "headshot-container"> 
+            <img class = "headshot" src="src/images/undefined.jpg" alt="Zahin Roja Headshot"/>
+        </div>
+    </section>
+
+    <section class = "sub-section-alternative" id="projects">
+        <h2>Projects</h2>
+        <div class = "project-container">
+
+            <div class ="project-card">
+                <img class = "project-image" src ="src/images/TrojanMaps.png" alt = "Project One Image" />
+                <h3>TrojanMaps</h3>
+                <p class = "subtext">Informative/Interactive App to be more aware of crimes near you</p>
+                <hr/>
+                <p class = "subtext"><a class = "project-link" href = "https://github.com/zroja/TrojanMaps_Project">View Here</a></p>
+            </div>
+
+            <div class ="project-card">
+                <img class = "project-image" src ="src/images/Hopeapp.png" alt = "Project Two Image" />
+                <h3>Mental Health App</h3>
+                <p class = "subtext">Empowering females to speak about mental health: chat, a professional, statistics</p>
+                <hr/>
+                <p class = "subtext" ><a class = "project-link" href = "https://devpost.com/software/hope-n1m6gq"> View Here</a></p>
+            </div>
+
+            <div class ="project-card">
+                <img class = "project-image" src ="src/images/Travelnsights.png" alt = "Project Three Image" />
+                <h3>Event Attendees Feature</h3>
+                <p class = "subtext">Adding a feature on trip advisor that gives people the ability to spend better and smarter.</p>
+                <hr/>
+                <p class = "subtext" ><a class = "project-link" href = "https://devpost.com/software/travel-insights"> View Here</a></p>
+            </div>
+
+            <div class ="project-card">
+                <img class = "project-image" src ="src/images/Invealth.png" alt = "Project Four Image" />
+                <h3>Financial Literacy App/Site</h3>
+                <p class = "subtext">Educating users to make better financial choices on how to save their money</p>
+                <hr/>
+                <p class = "subtext" ><a class = "project-link" href = "https://devpost.com/software/invealth"> View Here</a></p>
+            </div>
+        </div>
+    </section>
+    <footer id = "contact-me">
+        <h2>Contact me</h2>
+        <p>zahinroja1@gmail.com</p>
+    </footer>
     <script src = "src/app.js"></script>
   </body>
 </html>
