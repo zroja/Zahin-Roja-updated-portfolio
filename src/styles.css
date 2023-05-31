@@ -91,6 +91,26 @@ p{
     color: #808080
 }
 
+.resume_button{
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: midnightblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top:5px;
+    margin-top: 20px;
+}
+
+.resume_button:hover{
+    background-color: black;
+}
+
+.resume_button:active{
+    background-color: #A9A9A9;
+    color: #808080
+}
 .socials{
     padding-bottom:200px;
 }
