@@ -1,0 +1,12 @@
+{
+  "name": "zahin-roja-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio site, deployed to Firebase Hosting",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
