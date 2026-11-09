@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "firebase-debug.log",
+      "**/.*",
+      "**/node_modules/**",
+      "README.md",
+      "package.json",
+      "package-lock.json",
+      "scripts/**",
+      "src/images/Zahin Roja_files/**"
+    ]
+  }
+}
